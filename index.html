@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Web</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="painel">
+        <h1>Casdastro de Funcionarios</h1>
+        <form method="post">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Primeiro nome:<br>
+                    <input type="text" name="name" />
+                    <br>
+                </label>
+    
+                <label>
+                    Sobrenome:<br>
+                    <input type="text" name="lastname" />
+                    <br>
+                </label>
+    
+                <label>
+                    Foto:<br>
+                    <input type="file" name="photo" accept="image/*"/>
+                </label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da Empresa:<br>
+                    <input type="text" name="companyname" />
+                    <br>
+                </label>
+    
+                <label>
+                    Cargo:<br>
+                    <input type="text" name="companyjobtitle" />
+                </label>
+            </fieldset>
+    
+            <input type="submit" value="cadastrar" / class="button_cadastro">
+        </form>
+    </div>
+</body>
+</html>

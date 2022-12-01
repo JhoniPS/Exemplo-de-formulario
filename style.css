@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+fieldset {
+    background-color: #EEE;
+    border: 2px solid #f84b07;;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    background-color: #f84b07;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.painel{
+    background-color: #ff0077;
+    border-radius: 5px;
+    height: 420px;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.button_cadastro{
+  margin-left: 150px;
+  height: 20px;
+  width: auto;
+}
+
+h1{
+  margin-left: 15px;
+  color: #EEE;
+  
+}
